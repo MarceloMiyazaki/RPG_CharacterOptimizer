@@ -36,6 +36,13 @@
         </div>
     </div>
 
+    <div class="notes">
+        <details>
+            <summary>NOTES</summary>
+            <textarea placeholder="you can take notes here!" id="notes"></textarea>
+        </details>
+    </div>
+
     <div class="dados">
         <div class="lin1">
             <button onclick="d4()">D4</button>
@@ -53,11 +60,13 @@
         <p>dice: result</p>
         <p id="resultado"></p>
     </div>
+    
+    <div class="teste">
+        <button onclick="save(),criar(),load()">+</button>
+        <button onclick="reset()">RESET</button>
+    </div>
 
     <script src="index.js"></script>
 </body>
 
 </html>
-
-
-

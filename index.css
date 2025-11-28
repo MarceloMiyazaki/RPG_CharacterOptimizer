@@ -2,6 +2,11 @@ body{
     background-color: rgb(59, 53, 59);
 }
 
+::-webkit-scrollbar {
+    width: 0;
+    background: transparent; 
+}
+
 .stats{
     display: flex;
     justify-content: space-between;
@@ -75,7 +80,6 @@ label{
     width: 13vw;
     height: 6vh;
     font-size: 4vh;
-    text-align: center;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
@@ -87,6 +91,43 @@ label{
     font-size: 3vh;
     padding-top: 1vh;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.notes{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.notes details{
+    margin: 3vh 5vw 0vh 5vw;
+    width: 100vw;
+    display: block;
+    align-items: center;
+}
+
+.notes summary{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(107, 95, 107);
+    align-items: center;
+    height: 7vh;
+    border-radius: 1vh;
+    font-family: monospace;
+    font-size: 3vh;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#notes{
+    resize: none;
+    border-radius: 1vh;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: 75vw;
+    padding: 5vw;
+    font-size: 3vw;
+    text-align: justify;
+    margin-top: 3vh ;
+    height: 30vh;
 }
 
 .uai{
@@ -153,8 +194,112 @@ p{
     padding-bottom: 6vh;
     text-align: center;
     padding-top: 0px;
-
 }
 
+.teste{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 3vw;
+    margin-right: 3vw;
+    margin-bottom: 3vh;
+}
 
+.teste button{
+    width: 40vw;
+    font-family: monospace;
+    font-size: 3vh;
+    border-radius: 1vh;
+    height: 7vh;
+    background-color: rgb(107, 95, 107);
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
 
+.teste button:hover{
+    width: 40vw;
+    font-family: monospace;
+    font-size: 3vh;
+    border-radius: 1vh;
+    height: 7vh;
+    background-color: rgba(107, 95, 107, 0.5);
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.pamonha{
+    background-color: rgb(107, 95, 107);
+    border-radius: 1vh;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: block;
+    margin: 0vh 5vw 3vh 5vw;
+    text-align: center;
+    padding-top: 3vh;
+}
+
+.milho{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 1vh;
+    text-align: center;
+    margin-left: 4vw;
+    margin-right: 4vw;
+    margin-bottom: 1vh;
+}
+
+.dice{
+    width: 7vh;
+    height: 4.5vh;
+}
+
+.ab{
+    width: 55vw;
+    height: 4.5vh;
+    resize: none;
+    text-align: center;
+    font-size: 3vh;
+    padding-top: 1vh;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.milho button{
+    width: 20vw;
+    height: 6vh;
+    font-size: 3vh;
+    font-family: monospace;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    font-weight: bol;
+    border: 0px;
+}
+
+.pamonha details{
+    padding-bottom: 2vh;
+}
+
+.pamonha summary{
+    margin-bottom: 1vh;
+}
+
+details textarea{
+    resize: none;
+    border-radius: 1vh;
+    text-align: center;
+    padding-top: 2.5vh;
+    font-size: 2vh;
+}
+
+.pipoca{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 4vw;
+    margin-right: 4vw;
+    margin-bottom: 2vh;
+}
+
+.pica{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 5vw;
+    margin-right: 5vw;
+
+}
