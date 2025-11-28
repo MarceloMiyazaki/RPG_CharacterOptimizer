@@ -121,15 +121,15 @@ function criar(){
     </div>
     <details>
     <div class="pipoca">
-    <textarea class="dice" placeholder="d4" id="${num-7}"></textarea>
-    <textarea class="dice" placeholder="d6" id="${num-6}"></textarea>
-    <textarea class="dice" placeholder="d8" id="${num-5}"></textarea>
-    <textarea class="dice" placeholder="d10" id="${num-4}"></textarea>
+    <textarea inputmode="numeric" class="dice" placeholder="d4" id="${num-7}"></textarea>
+    <textarea inputmode="numeric" class="dice" placeholder="d6" id="${num-6}"></textarea>
+    <textarea inputmode="numeric" class="dice" placeholder="d8" id="${num-5}"></textarea>
+    <textarea inputmode="numeric" class="dice" placeholder="d10" id="${num-4}"></textarea>
     </div> 
     <div class="pica">
-    <textarea class="dice" placeholder="d12" id="${num-3}"></textarea>
-    <textarea class="dice" placeholder="d20" id="${num-2}"></textarea>
-    <textarea class="dice" placeholder="mod" id="${num-1}"></textarea>
+    <textarea inputmode="numeric" class="dice" placeholder="d12" id="${num-3}"></textarea>
+    <textarea inputmode="numeric" class="dice" placeholder="d20" id="${num-2}"></textarea>
+    <textarea inputmode="numeric" class="dice" placeholder="mod" id="${num-1}"></textarea>
     </div>
     <summary></summary>
     </details>
@@ -160,4 +160,5 @@ function rolar(i){
     }
 
     document.getElementById("resultado").textContent = document.getElementById(i-8).value + ": " + final
+
 }
