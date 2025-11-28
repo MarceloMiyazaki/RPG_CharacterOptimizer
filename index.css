@@ -17,6 +17,7 @@ body{
     padding-top: 4vh;
     width: 40vw;
     border-radius: 1vh;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 #mana{
@@ -28,6 +29,7 @@ body{
     padding-top: 4vh;
     width: 40vw;
     border-radius: 1vh;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 input[type="radio"]{
@@ -54,6 +56,7 @@ input[type="radio"]:checked {
     justify-content: space-around;
     align-items: center;
     border-radius: 1vh;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .radio{
@@ -65,7 +68,7 @@ input[type="radio"]:checked {
 label{
     font-size: 3vh;
     padding: 0px 0px 0px 2vw;
-    font-family: Arial, sans-serif;
+    font-family: monospace;
 }
 
 .modificador button{
@@ -73,6 +76,7 @@ label{
     height: 6vh;
     font-size: 4vh;
     text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .modificador textarea{
@@ -82,6 +86,7 @@ label{
     text-align: center;
     font-size: 3vh;
     padding-top: 1vh;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .uai{
@@ -93,18 +98,20 @@ label{
     width: 17vw;
     height: 17vw;
     border-radius: 1vh;
-    font-family: Arial, sans-serif;
+    font-family: monospace;
     font-size: 3vh;
     font-weight: bold;
     background-color: rgb(107, 95, 107);
     border: 0px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    
 }
 
 .dados button:hover{
     width: 17vw;
     height: 17vw;
     border-radius: 1vh;
-    font-family: Arial, sans-serif;
+    font-family: monospace;
     font-size: 3vh;
     font-weight: bold;
     background-color: rgba(107, 95, 107, 0.5);
@@ -131,11 +138,12 @@ label{
     margin-left: 5vw;
     margin-right: 5vw;
     border-radius: 1vh;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 p{
     font-size: 3vh;
-    font-family: arial, sans-serif;
+    font-family: monospace;
     padding-top: 1vh;
     padding-left: 4vw;
 }

@@ -1,3 +1,4 @@
+//LIFE AND MANA MOD FUNCS
 function plus(){
     if(!isNaN(Number(document.getElementById("modValue").value))){
         if(document.getElementById("vid").checked){
@@ -22,9 +23,11 @@ function sub(){
         }
     }
     else{
-        document.getElementById("modValue").value = "DIGITE UM NÚMERO ANTA!"
+        document.getElementById("modValue").value = "value need to be a number!"
     }
 }
+
+//DICES
 
 function d4(){
     document.getElementById("resultado").textContent = "d4: " + (Math.floor(Math.random() * 4) + 1)
@@ -48,4 +51,13 @@ function d12(){
 
 function d20(){
     document.getElementById("resultado").textContent = "d20: " + (Math.floor(Math.random() * 20) + 1)
+}
+
+//LOCAL STORAGE
+document.getElementById("vida").value = localStorage.getItem("vida")
+document.getElementById("mana").value = localStorage.getItem("mana")
+
+window.onbeforeunload = function save(){
+    localStorage.setItem("vida", document.getElementById("vida").value);
+    localStorage.setItem("mana", document.getElementById("mana").value);
 }
